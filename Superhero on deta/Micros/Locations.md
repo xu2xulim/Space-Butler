@@ -1,14 +1,14 @@
-:h1.Introduction
+# Introduction
 - The base url is `https://r1vaz7.deta.dev`
 - Redoc : https://r1vaz7.deta.dev/redoc
 - OpenAPI : https://r1vaz7.deta.dev/docs
 
-#Endpoints
+# Endpoints
 The following endpoints are available on this micro :
 
-##/endpoint
+## /endpoint
 - Creates a new card using the metadata extract from the URL. This was a legacy capability that is now replaced with a cardlink instead of a usable card for workflow.
 - For example use `>>https://www.youtube.com/watch?v=bU001cy_PE8` when creating a card.
 
-###Trello Automation
+### Trello Automation
 ```when a card with a name starting with ">>http{*}" is added to the board, post to url "https://r1vaz7.deta.dev/endpoint?api_key=<API Key>&token=<token>" with payload "{"card_id" : "{triggercardidlong}"}"```
