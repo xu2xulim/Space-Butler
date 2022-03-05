@@ -1,6 +1,6 @@
 This folder contains a brief documentation of the endpoints in each **Deta Micro** including url to the OpenAPI and redoc documentation.
 
-Trello Http Request will require the URL and Payload
+Trello Http Request will require the URL, request method and the Payload.
 
 ### URL Format
 
