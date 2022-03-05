@@ -5,14 +5,17 @@ This folder contains a brief documentation of the endpoints in each **Deta Micro
 Here's an example of a URL for a http request :
 `https://r1vaz7.deta.dev/endpoint?api_key=<API Key>&token=<token>`
 
-where (1) highlighted is the Base URL
-`https://r1vaz7.deta.dev`/endpoint?api_key=<API Key>&token=<token>
+where
 
-(2) highlighted is the path for the endpoint:
-https://r1vaz7.deta.dev`/endpoint`?api_key=<API Key>&token=<token>
+- the Base URL is `https://r1vaz7.deta.dev`
+- path for the endpoint is `/endpoint`
+- your api key is `<API Key>`
+- your token is `<token>`
 
-(3) highlighted is your api key
-https://r1vaz7.deta.dev/endpoint?api_key=`<API Key>`&token=<token>
+### Payload
 
-(4) highlighted is your token
-https://r1vaz7.deta.dev/endpoint?api_key=<API Key>&token=``<token>`
+Here's an example of a Payload :
+
+`{"card_id" : "{triggercardidlong}", "address" : "60 Lincoln Center Plaza, New York, NY 10023, United States", "locationName" : "The Juilliard School"}`
+
+In the above case, the card_id is a Trello variable and when the request is called, Trello automation will insert the value of the card id.
