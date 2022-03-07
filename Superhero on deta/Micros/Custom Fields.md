@@ -20,18 +20,18 @@ The following endpoints are available on this micro :
 
 ### Sample Payload
 
-```{"card_id" : "{foundcardidlong}"}```
+`{"card_id" : "{foundcardidlong}"}`
 
 ## /add_dropdown_option
 
-- Adds the new dropdown list option if it is not on the list
+- Adds the new dropdown list option if it is not on the list. It does not take into consideration the colour of the item to be added.
 
 ### Trello Automation Use Cases
 
-- When a new option need to be added to the list programmatically.
+- Add a new option to an existing dropdown custom field by name.
 
 ### Sample Payload
 
-```{"card_id" : "{triggercardidlong}", "new_option" : "Add", "dropdown_name" : "Operation"}```
+`{"card_id" : "{triggercardidlong}", "new_option" : "Add", "dropdown_name" : "Operation"}`
 
 - **Note** the card_id can be any card on the board. It is used to search through the board's custom field definitions only.
