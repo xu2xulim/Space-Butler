@@ -14,4 +14,4 @@ The following endpoints are available on this micro :
 
 ### Trello Automation
 
-```when a card with a name starting with ">>http{*}" is added to the board, post to url "https://r1vaz7.deta.dev/endpoint?api_key=<API Key>&token=<token>" with payload "{"card_id" : "{triggercardidlong}"}"```
+`when a card with a name starting with ">>http{*}" is added to the board, post to url "https://r1vaz7.deta.dev/endpoint?api_key=<API Key>&token=<token>" with payload "{"card_id" : "{triggercardidlong}"}"`

@@ -19,7 +19,7 @@ Geocode an address and update a card location attributes
 
 ### Sample Payload
 
-```{"card_id" : "{newcardidlong}", "address" : "60 Lincoln Center Plaza, New York, NY 10023, United States", "locationName" : "The Juilliard School" }```
+`{"card_id" : "{newcardidlong}", "address" : "60 Lincoln Center Plaza, New York, NY 10023, United States", "locationName" : "The Juilliard School" }`
 
 ## /copy_location
 
@@ -32,4 +32,4 @@ Copy the location attributes from one card to another.
 
 ### Sample Payload
 
-```{"card_id" : "{triggercardidlong}", "alt_card_id" : "{foundcardidlong}"}```
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{foundcardidlong}"}`
