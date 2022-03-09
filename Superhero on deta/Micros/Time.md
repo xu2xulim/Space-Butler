@@ -21,4 +21,6 @@ The following endpoints are available on this micro :
 
 `{"board_id" : "{boardid}"}`
 
-- **Note** to get the board id, add .json at the end of the board url on your browser. The first id is the board_id.
+- **Note**
+  - to get the board id, add .json at the end of the board url on your browser. The first id is the board_id.
+  - A timeout may occur if you are trying to process too many open cards on the board.
