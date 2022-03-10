@@ -24,3 +24,19 @@ The following endpoints are available on this micro :
 - **Note**
   - to get the board id, add .json at the end of the board url on your browser. The first id is the board_id.
   - A timeout may occur if you are trying to process too many open cards on the board.
+
+## /time_on_list
+
+- Computes the time on list in seconds / miunutes / hour / days. This includes time spent upon re-entry
+
+
+### Trello Automation Use Cases
+
+- Typically use to measure performance on a task as represented by the card.
+
+### Sample Payload
+
+`{"card_id" : "{cardidlong}", "listname" : "Doing"}`
+
+- **Note**
+ - future enhancement can include multiple list and a list that stops the time recording
