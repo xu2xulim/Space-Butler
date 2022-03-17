@@ -18,6 +18,8 @@ The following endpoints are available on this micro :
 - Use {foundcardidlong} following a lookup or find.
 - Or Use {triggercardidlong} when trying to replicate custom fields to a new card.
 
+`lookup a card titled "{{%PTYPE}}" in list "Lookup", post to url "https://jviwoq.deta.dev/get_customfields?api_key=14a...........21d7&token=be9f........6cb4" with payload "{"card_id" : "{foundcardidlong}"}", and set custom field "Price" to "{httpresponse.Price}`
+
 ### Sample Payload
 
 `{"card_id" : "{foundcardidlong}"}`
