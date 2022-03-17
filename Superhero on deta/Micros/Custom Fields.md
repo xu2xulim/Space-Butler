@@ -18,6 +18,10 @@ The following endpoints are available on this micro :
 - Use {foundcardidlong} following a lookup or find.
 - Or Use {triggercardidlong} when trying to replicate custom fields to a new card.
 
+### Trello Automation Example
+
+Below is an example of a card button automation to update the price on a card based on the price type (a custom field PTYPE) using the price on another card from the "Lookup" list. The endpoint returns the {httpresponse} containing all the custom fields on the lookup card and the price is available as {httpresponse.Price}.
+
 `lookup a card titled "{{%PTYPE}}" in list "Lookup", post to url "https://jviwoq.deta.dev/get_customfields?api_key=14a...........21d7&token=be9f........6cb4" with payload "{"card_id" : "{foundcardidlong}"}", and set custom field "Price" to "{httpresponse.Price}`
 
 ### Sample Payload
