@@ -38,6 +38,7 @@ Below is an example of a card button automation to update the price on a card ba
 
 ### Sample Payload
 
-`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{foundcardidlong}", "cf_name" : "CF_Checkbox"}`
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{foundcardidlong}", "cf_name" : "CF_Checkbox", "alt_cf_name" : "Another_Checkbox"}`
 
 **Notes** current version assumes that both cards are on the same board. If this has to work across boards, a second custom field name will be required since the change must be applied with the correct custom field definition id.
+**Update** Now supports case where target is not on the same board.
