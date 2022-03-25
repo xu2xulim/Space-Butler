@@ -28,16 +28,16 @@ Below is an example of a card button automation to update the price on a card ba
 
 `{"card_id" : "{foundcardidlong}"}`
 
-## /add_dropdown_option
+## /update_checkbox
 
-- Adds the new dropdown list option if it is not on the list. It does not take into consideration the colour of the item to be added.
+- Updates the checkbox custom field based on the checked status on another card.
 
 ### Trello Automation Use Cases
 
-- Add a new option to an existing dropdown custom field by name.
+- Can be applied in various scenarios as long as you have the {cardidlong} of both the trigger card and the target card like the {foundcardidlong} or the {newcardidlong}
 
 ### Sample Payload
 
-`{"card_id" : "{triggercardidlong}", "new_option" : "Add", "dropdown_name" : "Operation"}`
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{foundcardidlong}", "cf_name" : "CF_Checkbox"}`
 
-- **Note** the card_id can be any card on the board. It is used to search through the board's custom field definitions only.
+**Notes** current version assumes that both cards are on the same board. If this has to work across boards, a second custom field name will be required since the change must be applied with the correct custom field definition id.
