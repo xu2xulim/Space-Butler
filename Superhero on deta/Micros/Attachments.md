@@ -26,3 +26,23 @@ where option can be
 `"" for all attachments,
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card`
+
+## /setcover
+
+- Set the first or last attachment as the cover.
+
+
+### Trello Automation Use Cases
+
+- Trello defaults to the first attachment uploaded to the card. Use this endpoint to change it to the last upload automatically.
+
+### Sample Payload
+
+`{"card_id" : "{triggercardidlong}", "option" : ""}`
+
+where option can be
+
+`
+"first" - the first attachment added on the source/trigger card or
+"last" - the last attachment added on the source/trigger card
+`
