@@ -19,4 +19,12 @@ The following endpoints are available on this micro :
 
 ### Sample Payload
 
-`{"card_id" : "{triggercardidlong}", "alt_card_id" : {newcardidlong}}`
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : {newcardidlong}, "option" : ""}`
+
+where option can be
+
+`"" for all attachments,
+
+"first" - the first attachment added on the source/trigger card or
+
+"last" - the last attachment added on the source/trigger card`
