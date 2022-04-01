@@ -24,7 +24,5 @@ The following endpoints are available on this micro :
 where option can be
 
 `"" for all attachments,
-
 "first" - the first attachment added on the source/trigger card or
-
 "last" - the last attachment added on the source/trigger card`
