@@ -10,7 +10,7 @@ The following endpoints are available on this micro :
 
 ## /update_cardlinks
 
-- Inspects newly created template board to look for cardlinks and update them to point to the cards on the new board.
+- Inspects newly created board to look for cardlinks and update them to point to the cards on the new board. The lookup will be based on card name.
 
 
 ### Trello Automation Use Cases
@@ -20,3 +20,7 @@ The following endpoints are available on this micro :
 ### Sample Payload
 
 `{"board_id" : "{boardid}"}`
+
+### Limitations
+- Too many cards and cardlinks due to possible timeout at the endpoint.
+- Cards have the same name on the board.
