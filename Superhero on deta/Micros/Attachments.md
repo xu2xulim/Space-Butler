@@ -19,7 +19,7 @@ The following endpoints are available on this micro :
 
 ### Sample Payload
 
-`{"card_id" : "{triggercardidlong}", "alt_card_id" : {newcardidlong}, "option" : ""}`
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}", "option" : ""}`
 
 where option can be
 
@@ -46,3 +46,22 @@ where option can be
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card
 `
+## /usecover
+
+- The endpoint will get the cover from one card and set it as the cover on a second card.
+
+
+### Trello Automation Use Cases
+
+- /setcover alls you change cover to use the last/first upload file. You can use this endpoint to set a cover for a new card from either a lookup or the source card.
+
+- this endpoint will not work with covers that are created from Unsplash.
+
+### Sample Payload
+
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
+
+
+## Other Notes
+
+- This collection of endpoints involves downloading and creating attachments. It should be noted that here is a 10s timeout for each trigger.
