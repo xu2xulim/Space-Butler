@@ -61,7 +61,19 @@ where option can be
 
 `{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
 
+## /usesticker
 
+- The endpoint will get the cover from one card and set it as the cover on a second card.
+
+
+### Trello Automation Use Cases
+
+- You can use this endpoint to set a sticker for a new card from either a lookup or the source card.
+- When there is more than 1 sticker, the first on the list will be used.
+
+### Sample Payload
+
+`{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
 ## Other Notes
 
 - This collection of endpoints involves downloading and creating attachments. It should be noted that here is a 10s timeout for each trigger.
