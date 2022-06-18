@@ -44,3 +44,6 @@ The following endpoints are available on this micro :
 `
 when an item is added to checklist "{*}" in a card with custom fields "Name" and "Date (Text)" completed, post to url "https://hfetwp.deta.dev/new_item_assign_due?api_key=<your api key>&token=<your token>" with payload "{ "card_id": "{cardidlong}", "checklist_name": "{checklistname}", "item_name": "{checklistitemname}", "username": "{{%Name}}", "due": "{{%Date (Text)}}"}"
 `
+### Notes
+- The username format is @any_username . It has to have the prefix @.
+- Date format is recommended to be YYYY-MM-DD
