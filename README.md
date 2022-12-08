@@ -1,4 +1,4 @@
-This repository contains the information to use Trello Http Request with Space Bulter.
+This repository contains the information on the use of Trello Automation Http Request with Space Bulter.
 
 You can read more about Trello Http Request [here](https://help.trello.com/article/1203-issuing-http-requests-with-butler).
 
