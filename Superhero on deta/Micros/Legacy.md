@@ -1,12 +1,12 @@
+# PENDING MIGRATION SPACE BUTLER
+
 # Introduction
 
-- The base url is `https://r1vaz7.deta.dev`
-- Redoc : https://r1vaz7.deta.dev/redoc
-- OpenAPI : https://r1vaz7.deta.dev/docs
+- The base url is url specific to your instance of Space Bulter
 
-# Endpoints
+# Description
 
-The following endpoints are available on this micro :
+The following services are available :
 
 
 - Creates a new card using the metadata extract from the URL. This was a legacy capability that is now replaced with a cardlink instead of a usable card for workflow.
