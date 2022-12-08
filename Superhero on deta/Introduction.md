@@ -1,22 +1,21 @@
-This folder contains a brief documentation of the endpoints in each **Deta Micro** including url to the OpenAPI and redoc documentation.
+This folder contains the documentation of the services available from Space Butler. There are logically group and each group is a Deta Micro using FastAPI to provide the api services therein.
 
-Trello Http Request will require the URL, request method and the Payload.
+Trello Http Request will require the your instance of Space Butler, the route, request method and the Payload.
 
 ### URL Format
 
 Here's an example of a URL for a http request :
-`https://w55o8f.deta.dev/update_location?api_key=<API Key>&token=<token>`
+`https://husky-yqs8-space_butler.milynnus.deta.app/update_location`
 
 where
 
-- the Base URL is `https://w55o8f.deta.dev`
-- path for the endpoint is `/update_location`
-- your api key is `<API Key>`
-- your token is `<token>`
+- your Space Butler instance endpoint is `[https://w55o8f.deta.dev](https://husky-yqs8-space_butler.milynnus.deta.app/)`
+- path for service is `/update_location`
 
 ### Request Method
 
-In most cases, the request will be a **POST** http request.
+In most cases, the request will be a **POST** http request. The option is provided from within Trello Automation > Content > Http Request
+Unless otherwise specific, no headers are required. Your API Key and Token you provide will be store on your personal, private cloud in Deta Space.
 
 ### Payload
 
