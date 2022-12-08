@@ -1,4 +1,4 @@
-This repository contains the information you need on Trello automation add-on services which you can call via the http request from within your automation commands. You will need your Trello API key and Token from https://trello.com/app-key.
+This repository contains the information to use Trello Http Request with Space Bulter.
 
 You can read more about Trello Http Request [here](https://help.trello.com/article/1203-issuing-http-requests-with-butler).
 
