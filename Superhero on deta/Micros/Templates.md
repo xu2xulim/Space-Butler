@@ -1,12 +1,12 @@
+# PENDING MIGRATION SPACE BUTLER
+
 # Introduction
 
-- The base url is `https://lwdb8h.deta.dev`
-- Redoc : https://lwdb8h.deta.dev/redoc
-- OpenAPI : https://lwdb8h.deta.dev/docs
+- The base url is url specific to your instance of Space Bulter
 
-# Endpoints
+# Description
 
-The following endpoints are available on this micro :
+The following services are available :
 
 ## /update_cardlinks
 
