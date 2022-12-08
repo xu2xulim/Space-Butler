@@ -1,12 +1,12 @@
+# PENDING MIGRATION SPACE BUTLER
+
 # Introduction
 
-- The base url is `https://5v55yc.deta.dev`
-- Redoc : https://5v55yc.deta.dev/redoc
-- OpenAPI : https://5v55yc.deta.dev/docs
+- The base url is url specific to your instance of Space Bulter
 
-# Endpoints
+# Description
 
-The following endpoints are available on this micro :
+The following services are available :
 
 ## /items_due
 
