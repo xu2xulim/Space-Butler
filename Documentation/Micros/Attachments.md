@@ -34,7 +34,7 @@ where option can be
 
 - Trello defaults to the first attachment uploaded to the card. Use this endpoint to change it to the last upload automatically.
 
-### Sample Payload
+### Payload
 
 `{"card_id" : "{triggercardidlong}", "option" : ""}`
 
@@ -55,7 +55,7 @@ where option can be
 
 - this endpoint will not work with covers that are created from Unsplash.
 
-### Sample Payload
+### Payload
 
 `{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
 

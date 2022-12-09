@@ -23,4 +23,15 @@ Here's an example of a Payload :
 
 `{"card_id" : "{triggercardidlong}", "address" : "60 Lincoln Center Plaza, New York, NY 10023, United States", "locationName" : "The Juilliard School"}`
 
-In the above case, the {triggercardidlong} is a Trello variable and when the request is called, Trello automation will insert the value of the card id. For more information on Trello variables, visit this [help page](https://help.trello.com/article/1157-variables).
+In the above case, the {triggercardidlong} is a Trello variable and when the request is called, Trello automation will insert the value of the card id.
+
+In Trello, the following prefixes are commonly used :
+
+- {trigger...}
+- {copy...}
+- {new...}
+- {multiplier...}
+- {previous...}
+- etc
+
+For more information on Trello variables, visit this [help page](https://help.trello.com/article/1157-variables).
