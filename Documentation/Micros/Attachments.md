@@ -1,6 +1,6 @@
 # Introduction
 
-- The base url is url specific to your instance of Space Bulter
+- The base url is url specific to your instance of Space Bulter + `/attachments` (path for the micro)
 
 # Description
 

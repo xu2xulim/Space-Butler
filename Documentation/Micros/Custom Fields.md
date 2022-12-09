@@ -1,6 +1,6 @@
 # Introduction
 
-- The base url is url specific to your instance of Space Bulter
+- - The base url is url specific to your instance of Space Bulter + `/customfields` (path for the micro...expected in coming release)
 
 # Description
 

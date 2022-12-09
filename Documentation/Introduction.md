@@ -5,11 +5,12 @@ Trello Http Request will require the your instance of Space Butler, the route, r
 ### URL Format
 
 Here's an example of a URL for a http request :
-`https://husky-yqs8-space_butler.milynnus.deta.app/update_location`
+`https://husky-yqs8-space_butler.milynnus.deta.app/location/update_location`
 
 where
 
-- your Space Butler instance endpoint is `[https://w55o8f.deta.dev](https://husky-yqs8-space_butler.milynnus.deta.app/)`
+- your Space Butler instance endpoint is `https://husky-yqs8-space_butler.milynnus.deta.app`
+- path for the micro is `/location` (this is how the services are logically implemented)
 - path for service is `/update_location`
 
 ### Request Method
