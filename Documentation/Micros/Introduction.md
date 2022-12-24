@@ -7,7 +7,7 @@ The services documented herein and the services from following micros are availa
 
 # Introduction
 
-- The base url is url specific to your instance of Space Bulter. *Note: * there is no path associated with the use to the services documented on this page.
+- The base url is url specific to your instance of Space Bulter. **Note:** there is no path associated with the use to the services documented on this page.
 
 # Description
 
