@@ -1,12 +1,13 @@
-# Published status
-The services documented and the services from following micros are available on the app :
+# Status
+
+The services documented herein and the services from following micros are available on the app :
 - Custom Fields : path is /customfields
 - Attachments : path is /attachments
 
 
 # Introduction
 
-- - The base url is url specific to your instance of Space Bulter
+- The base url is url specific to your instance of Space Bulter. *Note: * there is no path associated with the use to the services documented on this page.
 
 # Description
 
