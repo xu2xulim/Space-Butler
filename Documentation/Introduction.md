@@ -36,3 +36,9 @@ In Trello, the following prefixes are commonly used :
 - etc
 
 For more information on Trello variables, visit this [help page](https://help.trello.com/article/1157-variables).
+
+### Query Parameters
+
+Where query parameters are used, it is appended to the url e.g `https://husky-yqs8-space_butler.milynnus.deta.app/location/update_location?country=usa&zip=10023` where the query paramters is appended aka `?country=usa&zip=10023`
+
+You can use Trello variables e.g `?country={{%Country}}&zip={{%Zip}}` where you have the country and zip values on the card as Custom Fields. 
