@@ -74,7 +74,7 @@ where option can be
 
 `{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
 
-## Other Notes
+### Other Notes
 - This collection of endpoints involves downloading and creating attachments. It should be noted that here is a 10s timeout for each trigger.
 
 
