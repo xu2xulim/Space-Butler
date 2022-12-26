@@ -5,7 +5,7 @@
 # Description
 
 The following services are available :
-
+---
 ## /copy_attachments
 
 - Copy attachments from a card to another. This will ignore all card and board links.
@@ -24,7 +24,7 @@ where option can be
 `"" for all attachments,
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card`
-
+---
 
 ## /setcover
 
@@ -44,6 +44,7 @@ where option can be
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card
 `
+---
 
 ## /usecover
 
@@ -58,7 +59,7 @@ where option can be
 ### Payload
 
 `{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
-
+---
 
 ## /usesticker
 
@@ -75,3 +76,18 @@ where option can be
 
 ## Other Notes
 - This collection of endpoints involves downloading and creating attachments. It should be noted that here is a 10s timeout for each trigger.
+---
+
+## /list_attachments
+
+- The endpoint to create a checklist "Attachments - <option>" containing the `<attachment id> || <attachment name>`
+
+### Trello Automation Use Cases
+
+- Use together with "for each item" and the service "/get_attachment" you will be able to use it with other api that requires a copy of the attachment eg to send attachment via email or send it to a White Hole using the Deta Space App "Black Hole" to share your Trello content for images
+
+### Payload
+`{ "card_id": "{cardidlong}" , "option": "pdf" }`
+
+the support values for option are : `all, pdf, images`
+---
