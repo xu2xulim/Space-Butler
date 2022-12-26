@@ -5,7 +5,7 @@
 # Description
 
 The following services are available :
----
+
 ## /copy_attachments
 
 - Copy attachments from a card to another. This will ignore all card and board links.
@@ -24,7 +24,7 @@ where option can be
 `"" for all attachments,
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card`
----
+
 
 ## /setcover
 
@@ -44,7 +44,7 @@ where option can be
 "first" - the first attachment added on the source/trigger card or
 "last" - the last attachment added on the source/trigger card
 `
----
+
 
 ## /usecover
 
@@ -59,7 +59,7 @@ where option can be
 ### Payload
 
 `{"card_id" : "{triggercardidlong}", "alt_card_id" : "{newcardidlong}"}`
----
+
 
 ## /usesticker
 
@@ -76,7 +76,7 @@ where option can be
 
 ## Other Notes
 - This collection of endpoints involves downloading and creating attachments. It should be noted that here is a 10s timeout for each trigger.
----
+
 
 ## /list_attachments
 
@@ -90,4 +90,3 @@ where option can be
 `{ "card_id": "{cardidlong}" , "option": "pdf" }`
 
 the support values for option are : `all, pdf, images`
----
