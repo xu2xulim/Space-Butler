@@ -6,6 +6,22 @@
 
 The following services are available :
 
+## /get_attachment
+
+- get the content of an attachment using the attachment id. Current image, pdf and text files are supported
+
+
+### Trello Automation Use Cases
+
+- returns the content of an attachment
+
+### Method
+- GET
+
+### Query Parameters
+
+`?card_id={triggercardidlong}&attach_id=<attachment ID in first 24 chars of string>`
+
 ## /copy_attachments
 
 - Copy attachments from a card to another. This will ignore all card and board links.
