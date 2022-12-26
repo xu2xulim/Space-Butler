@@ -8,7 +8,7 @@ The following services are available :
 
 ## /get_attachment
 
-- get the content of an attachment using the attachment id. Current image, pdf and text files are supported
+- get the content of an attachment using the attachment id. Currently, only image, pdf and text files are supported
 
 
 ### Trello Automation Use Cases
